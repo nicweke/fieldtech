@@ -13,7 +13,7 @@ const Navbar = () => {
 
           <div className="hidden items-center gap-x-5 sm:flex ">
             <Link href="/about">About Us</Link>
-            <Link href="business">Our Business</Link>
+            <Link href="/business">Our Business</Link>
             <Link href="/clients-partners">Clients and Partners</Link>
             <Button
               className={buttonVariants({

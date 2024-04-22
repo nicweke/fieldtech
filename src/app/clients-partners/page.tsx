@@ -138,9 +138,9 @@ const partners = [
 
 const Clients = () => {
   return (
-    <MaxWidthWrapper>
+    <section className="mx-auto max-w-screen-2xl p-6 sm:p-18 sm:pt-[2.625rem]">
       <>
-        <section className="py-10 mb-2">
+        <div className="py-10 mb-2">
           <div>
             <div className="items-center gap-x-12 lg:flex">
               <div className="flex-1 sm:hidden lg:block">
@@ -238,9 +238,9 @@ const Clients = () => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </>
-    </MaxWidthWrapper>
+    </section>
   );
 };
 
