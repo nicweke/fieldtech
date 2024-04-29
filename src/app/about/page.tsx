@@ -597,7 +597,7 @@ const About = () => {
             <h2 className="mb-4 text-2xl/none font-bold tracking-tight text-violet-800 sm:mb-5 sm:text-[2.875rem]/none">
               Our Identity
             </h2>
-            <p className="mb-8 text-base/tight font-medium tracking-tight dark:text-blue-50 sm:mb-12 sm:text-lg/tight">
+            <p className="mb-8 text-base/tight font-medium tracking-tight dark:text-blue-50 sm:mb-12 sm:text-xl/tight">
               Established in 1990, Fieldtech Systems Limited has emerged as a
               leader in providing airfield, commercial kitchen, laundry, cold
               storage, and ICT solutions. As a Kenyan-based company

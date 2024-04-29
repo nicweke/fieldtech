@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={cn("max-h-full", font.className)}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
