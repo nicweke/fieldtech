@@ -1,20 +1,13 @@
-import Footer from "@/components/Footer";
-import MaxWidthWrapper from "@/components/MaxWidthWarapper";
 import { Button, buttonVariants } from "@/components/ui/button";
-import {
-  ArrowRight,
-  ArrowRightCircle,
-  ArrowRightCircleIcon,
-  CircleArrowRight,
-} from "lucide-react";
+import { ArrowRight, ArrowRightCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <section className="bg-gray-100 dark:bg-blue-500">
-        <div className="mx-auto max-w-screen-2xl items-center p-6 max-sm:space-y-8 sm:flex sm:space-x-[5.75rem] sm:px-18 sm:py-16">
+      <section>
+        <div className="mx-auto max-w-screen-2xl items-center p-4 max-sm:space-y-8 sm:flex sm:space-x-[5.75rem] sm:px-18 sm:py-16">
           <div className="overflow-hidden max-sm:text-center sm:w-[41.1875rem]">
             <h2 className="mb-8 text-2xl/tight font-bold tracking-tight dark:text-white sm:mb-6 sm:text-[2.0rem]/none">
               <span className="text-violet-700">At Fieldtech Systems,</span>
@@ -47,10 +40,10 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="overflow-hidden sm:w-[34.0625rem] sm:flex-shrink-0">
-            <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-[2.25rem] relative">
+          <div className="overflow-hidden sm:w-[34.0625rem]">
+            <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-[2.25rem]">
               <Image
-                alt="Practitioner using a haemogram"
+                alt="hero-image"
                 src="/lady-smile.jpg"
                 quality={75}
                 width={700}
@@ -60,6 +53,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="bg-violet-700 font-bold">
         <div className="mx-auto max-w-screen-2xl p-6 sm:px-18 sm:py-16">
           <h2 className="mb-8 text-2xl/none tracking-tight text-white sm:mb-16 sm:text-[3.875rem]/none">
